@@ -1,0 +1,36 @@
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "54u-pV-d7Y"; */
+"54u-pV-d7Y.title" = "Modifier";
+
+/* Class = "UINavigationItem"; title = "Choose Toppings"; ObjectID = "8n0-ja-Q86"; */
+"8n0-ja-Q86.title" = "Choisissez les garnitures";
+
+/* Class = "UINavigationItem"; title = "Order"; ObjectID = "Dga-ns-1Tc"; */
+"Dga-ns-1Tc.title" = "Commande";
+
+/* Class = "UIButton"; normalTitle = "Customize Pizza"; ObjectID = "Ldh-t0-IxM"; */
+"Ldh-t0-IxM.normalTitle" = "Personnaliser la pizza";
+
+/* Class = "UILabel"; text = "History Orders"; ObjectID = "M0t-lu-6Ab"; */
+"M0t-lu-6Ab.text" = "Historique des commandes";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "NPd-9o-oUq"; */
+"NPd-9o-oUq.text" = "Adresse";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "QqO-Lm-RvZ"; */
+"QqO-Lm-RvZ.title" = "Domicile";
+
+/* Class = "UILabel"; text = "Good Morning!"; ObjectID = "eIx-v3-5oU"; */
+"eIx-v3-5oU.text" = "Bon Matin!";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "eJf-aj-A2V"; */
+"eJf-aj-A2V.text" = "Nom";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "lNY-GS-G0G"; */
+"lNY-GS-G0G.title" = "Suivante";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "uDg-TV-xnI"; */
+"uDg-TV-xnI.text" = "Ville";
+
+/* Class = "UILabel"; text = "Zip Code"; ObjectID = "unL-9B-lA3"; */
+"unL-9B-lA3.text" = "Code postal";
