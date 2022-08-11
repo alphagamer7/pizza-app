@@ -13,9 +13,6 @@
 		52216D6928A58F3300F7D54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52216D6728A58F3300F7D54D /* Main.storyboard */; };
 		52216D6B28A58F3500F7D54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52216D6A28A58F3500F7D54D /* Assets.xcassets */; };
 		52216D6E28A58F3500F7D54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52216D6C28A58F3500F7D54D /* LaunchScreen.storyboard */; };
-		52216D7928A58F3500F7D54D /* Pizza_OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D7828A58F3500F7D54D /* Pizza_OrderTests.swift */; };
-		52216D8328A58F3500F7D54D /* Pizza_OrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D8228A58F3500F7D54D /* Pizza_OrderUITests.swift */; };
-		52216D8528A58F3500F7D54D /* Pizza_OrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D8428A58F3500F7D54D /* Pizza_OrderUITestsLaunchTests.swift */; };
 		52216D9228A58FDF00F7D54D /* HistoryOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D9128A58FDF00F7D54D /* HistoryOrder.swift */; };
 		52216D9428A5900E00F7D54D /* HistoryOrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D9328A5900E00F7D54D /* HistoryOrderList.swift */; };
 		52216D9628A5903B00F7D54D /* ToppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216D9528A5903B00F7D54D /* ToppingTableViewController.swift */; };
@@ -49,10 +46,7 @@
 		52216D6D28A58F3500F7D54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52216D6F28A58F3500F7D54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52216D7428A58F3500F7D54D /* Pizza OrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza OrderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52216D7828A58F3500F7D54D /* Pizza_OrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_OrderTests.swift; sourceTree = "<group>"; };
 		52216D7E28A58F3500F7D54D /* Pizza OrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza OrderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52216D8228A58F3500F7D54D /* Pizza_OrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_OrderUITests.swift; sourceTree = "<group>"; };
-		52216D8428A58F3500F7D54D /* Pizza_OrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_OrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52216D9128A58FDF00F7D54D /* HistoryOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOrder.swift; sourceTree = "<group>"; };
 		52216D9328A5900E00F7D54D /* HistoryOrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOrderList.swift; sourceTree = "<group>"; };
 		52216D9528A5903B00F7D54D /* ToppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewController.swift; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				52216D6028A58F3300F7D54D /* Pizza Order */,
-				52216D7728A58F3500F7D54D /* Pizza OrderTests */,
-				52216D8128A58F3500F7D54D /* Pizza OrderUITests */,
 				52216D5F28A58F3300F7D54D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,23 +112,6 @@
 				52216D9728A5905600F7D54D /* OrderViewController.swift */,
 			);
 			path = "Pizza Order";
-			sourceTree = "<group>";
-		};
-		52216D7728A58F3500F7D54D /* Pizza OrderTests */ = {
-			isa = PBXGroup;
-			children = (
-				52216D7828A58F3500F7D54D /* Pizza_OrderTests.swift */,
-			);
-			path = "Pizza OrderTests";
-			sourceTree = "<group>";
-		};
-		52216D8128A58F3500F7D54D /* Pizza OrderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52216D8228A58F3500F7D54D /* Pizza_OrderUITests.swift */,
-				52216D8428A58F3500F7D54D /* Pizza_OrderUITestsLaunchTests.swift */,
-			);
-			path = "Pizza OrderUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52216D7928A58F3500F7D54D /* Pizza_OrderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52216D8528A58F3500F7D54D /* Pizza_OrderUITestsLaunchTests.swift in Sources */,
-				52216D8328A58F3500F7D54D /* Pizza_OrderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
