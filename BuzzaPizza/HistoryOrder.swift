@@ -1,8 +1,8 @@
 //
 //  HistoryOrder.swift
-//  BuzzaPizza
+// pizza app
 //
-//  Created by Tri Le on 4/20/22.
+//  Created by the alpha team (Athif, Shubham & Shivam) 
 //
 
 import Foundation

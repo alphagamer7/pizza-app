@@ -1,8 +1,8 @@
 //
 //  ToppingTableViewController.swift
-//  BuzzaPizza
+// pizza app
 //
-//  Created by Tri Le on 4/20/22.
+//  Created by the alpha team (Athif, Shubham & Shivam) 
 //
 
 import UIKit
@@ -10,14 +10,14 @@ import UIKit
 class ToppingTableViewController: UITableViewController {
     
     let TOPPINGS = [
-        NSLocalizedString("Pepperoni", comment: "A pizza topping"),
-        NSLocalizedString("Bacon", comment: "A pizza topping"),
-        NSLocalizedString("Mushroom", comment: "A pizza topping"),
-        NSLocalizedString("Tomatoes", comment: "A pizza topping"),
-        NSLocalizedString("Olives", comment: "A pizza topping"),
-        NSLocalizedString("Green Peppers", comment: "A pizza topping"),
-        NSLocalizedString("Onions", comment: "A pizza topping"),
-        NSLocalizedString("Jalapenos", comment: "A pizza topping")
+        NSLocalizedString("Pepperoni", comment: "A Pepperoni pizza topping"),
+        NSLocalizedString("Bacon", comment: "A Bacon pizza topping"),
+        NSLocalizedString("Mushroom", comment: "A Mushroom pizza topping"),
+        NSLocalizedString("Tomatoes", comment: "A Tomatoes pizza topping"),
+        NSLocalizedString("Olives", comment: "An Olives pizza topping"),
+        NSLocalizedString("Green Peppers", comment: "A Green Peppers pizza topping"),
+        NSLocalizedString("Onions", comment: "An Onion pizza topping"),
+        NSLocalizedString("Jalapenos", comment: "A Jalapenos pizza topping")
     ]
     let SELECTED_ROW_COLOR = UIColor(red: CGFloat(3.0/255), green: CGFloat(218.0/255), blue: CGFloat(197.0/255), alpha: 1)
     let DEFAULT_ROW_COLOR = UIColor(white: 0, alpha: 0)

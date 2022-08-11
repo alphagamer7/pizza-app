@@ -1,8 +1,8 @@
 //
 //  OrderViewController.swift
-//  BuzzaPizza
+// pizza app
 //
-//  Created by Tri Le on 4/20/22.
+//  Created by the alpha team (Athif, Shubham & Shivam) 
 //
 
 import UIKit
@@ -86,9 +86,7 @@ class OrderViewController: UIViewController {
             zipCodeField.layer.borderWidth = 1
         }
     }
-    
 
-    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
