@@ -52,16 +52,6 @@ class HistoryOrderList {
         hisroryOrders.remove(at: position)
     }
     
-    /*
-    // UNSUPPORTED FOR NOW
-    // Change position of a history order item in the history order list
-    func moveHistoryOrder(from: Int, to: Int) {
-        let temp = hisroryOrders[from]
-        removeHistoryOrder(position: from)
-        hisroryOrders.insert(temp, at: to)
-    }
-    */
-    
     // Archive history orders data to document directory
     func save() {
         do {

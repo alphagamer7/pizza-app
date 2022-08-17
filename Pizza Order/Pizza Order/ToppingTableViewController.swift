@@ -88,8 +88,7 @@ class ToppingTableViewController: UITableViewController {
         // Configure the cell...
         let currentToppingRow = TOPPINGS[indexPath.row]
         cell.textLabel!.text = currentToppingRow
-        // Remove default selected row style color
-        // cell.selectionStyle = .none
+
 
         return cell
     }
