@@ -1,5 +1,5 @@
 # Pizza-app
-Contributors
+Contributors:
 
 Athif Ahamed Mohamed Shaffy: A00256229
 
