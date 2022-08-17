@@ -25,25 +25,29 @@ class HistoryOrder : NSObject, NSCoding {
     }
 
     func updateToppingText() {
-        // Convert from array list of toppings to a string with comma-separated toppings
-        // ["Mozzarella", "BBQ Sauce", "Tomato"] => "Mozzarella, BBQ Sauce, and Tomato"
-        var toppingsToConvert = toppings;
-        if (toppingsToConvert.count > 0) {
-            let firstTopping = toppingsToConvert[0];
-            let lastTopping = toppingsToConvert[toppingsToConvert.count - 1];
-            
-            let from1 = firstTopping.index(firstTopping.startIndex, offsetBy: 0)
-            let to1 = firstTopping.index(firstTopping.startIndex, offsetBy: 1)
-            let from2 = firstTopping.index(after: firstTopping.startIndex)
-            let to2 = firstTopping.endIndex
-            // Capitalize first letter of first topping in the list
-            toppingsToConvert[0] = String(format: "%@%@", String(firstTopping[from1..<to1]).uppercased(), String(firstTopping[from2..<to2]))
-            // Add "and" as a linking word to the last topping in the list for a more natural sentence.
-            toppingsToConvert[toppingsToConvert.count - 1] = String(format: "and %@.", lastTopping);
-
-            self.toppingText = toppingsToConvert.joined(separator: ", ")
+            // Convert from array list of toppings to a string with csv toppings
+            // Ex: ["Beef", "Ham", "Tomato"] => "Beef, Ham, and Tomato"
+            var toppingsToConvert = toppings;
+            if (toppingsToConvert.count > 0) {
+                let firstTopping = toppingsToConvert[0];
+                let lastTopping = toppingsToConvert[toppingsToConvert.count - 1];
+                
+                let from1 = firstTopping.index(firstTopping.startIndex, offsetBy: 0)
+                let to1 = firstTopping.index(firstTopping.startIndex, offsetBy: 1)
+                let from2 = firstTopping.index(after: firstTopping.startIndex)
+                let to2 = firstTopping.endIndex
+                // Capitalize first letter of first topping in the list
+                toppingsToConvert[0] = String(format: "%@%@", String(firstTopping[from1..<to1]).uppercased(), String(firstTopping[from2..<to2]))
+                // Add "and" as a linking word to the last topping in the list for a more natural sentence.
+                if (toppingsToConvert.count > 1) {
+                    toppingsToConvert[toppingsToConvert.count - 1] = String(format: "and %@.", lastTopping);
+                        
+                    self.toppingText = toppingsToConvert.joined(separator: ", ")
+                }else{
+                    self.toppingText = lastTopping;
+                }
+            }
         }
-    }
     
     func setOrderInfo(_ name: String, _ address: String, _ city: String, _ zipCode: String) {
         self.name = name

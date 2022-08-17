@@ -26,6 +26,7 @@ class HistoryOrderList {
     }
     
     init(autofilled: Bool) {
+        // List of customization items
         let toppings = ["Pepperoni", "Bacon", "Mushroom", "Tomatoes", "Olives", "Green Peppers", "Onions", "Jalapenos"]
         var order: HistoryOrder!
         for _ in 1...10 {
