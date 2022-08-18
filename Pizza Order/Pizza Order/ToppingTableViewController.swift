@@ -19,7 +19,8 @@ class ToppingTableViewController: UITableViewController {
         NSLocalizedString("Onions", comment: "An Onion pizza topping"),
         NSLocalizedString("Jalapenos", comment: "A Jalapenos pizza topping")
     ]
-    let SELECTED_ROW_COLOR = UIColor(red: CGFloat(3.0/255), green: CGFloat(218.0/255), blue: CGFloat(197.0/255), alpha: 1)
+    let SELECTED_ROW_COLOR = UIColor(hue: 0.0056, saturation: 0.57, brightness: 0.97, alpha: 1.0) /* #f96e69 */
+
     let DEFAULT_ROW_COLOR = UIColor(white: 0, alpha: 0)
     var toppingSelectionStatuses = Array(repeating: false, count: 8)
     
