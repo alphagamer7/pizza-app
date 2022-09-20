@@ -19,6 +19,10 @@ class ToppingTableViewController: UITableViewController {
         NSLocalizedString("Onions", comment: "An Onion pizza topping"),
         NSLocalizedString("Jalapenos", comment: "A Jalapenos pizza topping")
     ]
+   
+    
+    /*/*this is a comment */*/
+    /* this /* is /* a /* comment */*/*/*/
     let SELECTED_ROW_COLOR = UIColor(hue: 0.0056, saturation: 0.57, brightness: 0.97, alpha: 1.0) /* #f96e69 */
 
     let DEFAULT_ROW_COLOR = UIColor(white: 0, alpha: 0)
