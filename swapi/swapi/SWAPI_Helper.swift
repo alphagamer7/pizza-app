@@ -7,7 +7,7 @@
 
 import Foundation
 
-public static class SWAPI_Helper{
+public class SWAPI_Helper{
     static private let urlString = "https://swapi.dev/api/people/1";
     
     static private let session: URLSession = {

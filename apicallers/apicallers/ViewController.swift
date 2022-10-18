@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  swapi
+//  apicallers
 //
-//  Created by test on 2022-09-20.
+//  Created by test on 2022-10-18.
 //
 
 import UIKit
@@ -11,8 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SWAPI_Helper.fetchDir();
+        // Do any additional setup after loading the view.
     }
-}
 
+
+}
 
